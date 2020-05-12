@@ -1,0 +1,3 @@
+<InArgument x:TypeArguments="x:String" x:Key="@@Key">
+          <Literal x:TypeArguments="x:String">@@Value</Literal>
+</InArgument>

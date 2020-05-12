@@ -1,0 +1,9 @@
+<Sequence DisplayName="Create Form Task - @@TaskTitle" sap:VirtualizedContainerService.HintSize="376,525" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        @@FormTemplate
+        <AddToCollection x:TypeArguments="upaf:FormTaskData" Collection="[IO_TaskObject]" DisplayName="Add To Collection" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="AddToCollection`1_1" Item="[resultFormTaskObject]" />
+      </Sequence>

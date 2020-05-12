@@ -1,0 +1,5 @@
+        <upaf:CreateFormTask TaskCatalog="{x:Null}" TimeoutMs="{x:Null}" DisplayName="Create Form Task" FormLayout="%[@@FormLayout]" sap:VirtualizedContainerService.HintSize="334,371" sap2010:WorkflowViewState.IdRef="CreateFormTask_1" TaskOutput="[resultFormTaskObject]" TaskPriority="[TaskPriority.Medium]" TaskTitle="@@TaskTitle">
+          <upaf:CreateFormTask.FormData>
+            @@Arguments
+          </upaf:CreateFormTask.FormData>
+        </upaf:CreateFormTask>

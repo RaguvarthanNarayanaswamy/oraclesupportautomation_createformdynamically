@@ -1,0 +1,3 @@
+<OutArgument x:TypeArguments="x:String" x:Key="@@Key">
+          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="@@Value" />
+</OutArgument>
